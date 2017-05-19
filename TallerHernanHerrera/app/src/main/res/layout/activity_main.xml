@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="estudiante.example.com.herrera.tallerhernanherrera.MainActivity">
+
+    <Button
+        android:id="@+id/MainEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:onClick="OnButtonClickEnter"
+        android:text="Aceptar"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <TextView
+        android:text="Bienvenido a la Aplicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:id="@+id/MainTitulo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/MainUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="User"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="159dp"
+        android:layout_below="@+id/MainTitulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp" />
+
+    <EditText
+        android:id="@+id/MainPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="243dp"
+        android:layout_alignTop="@+id/MainUser"
+        android:layout_alignLeft="@+id/MainUser"
+        android:layout_alignStart="@+id/MainUser"
+        android:layout_marginTop="69dp" />
+
+</RelativeLayout>

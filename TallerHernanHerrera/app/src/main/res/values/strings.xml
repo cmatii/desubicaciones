@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TallerHernanHerrera</string>
+    <string name="action_settings">Settings</string>
+    <string name="ingreso_de_datos">Ingreso de datos</string>
+    <string name="nombre">Nombre</string>
+    <string name="precio">Precio</string>
+    <string name="confirmar">Confirmar</string>
+</resources>

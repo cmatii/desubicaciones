@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_perfil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    tools:context="estudiante.example.com.herrera.tallerhernanherrera.Perfil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:text="Categoria"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/PerfilTitulo1" />
+
+        <Button
+            android:id="@+id/anadirc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Añadir Categoria"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:id="@+id/PerfilCategorias" />
+
+        <TextView
+            android:text="Prestamo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PerfilTitulo2" />
+
+        <Button
+            android:id="@+id/anadird"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Añadir Prestamos"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:id="@+id/PerfilPrestamo" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="447dp">
+
+    </ScrollView>
+
+</RelativeLayout>
